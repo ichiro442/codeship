@@ -1,0 +1,102 @@
+/* 共通 */
+
+.message-wrapper {
+  width: 100%;
+  height: 300px;
+}
+
+.my_column_my_right {
+  box-shadow: inset 0px 0px 5px 5px #fcf9f4;
+}
+.my_column_my_left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: pink;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.label_frame {
+  padding: 0;
+}
+
+.required {
+  background-color: #fdd;
+  padding: 10px;
+  width: 474px;
+  height: 42;
+}
+/* 共通 */
+
+/*名前 */
+.name-container {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  width: 50%;
+  height: 300px;
+  font-size: 15px;
+  padding: 20px 10px;
+}
+
+/* 名前*/
+
+/* メールアドレス */
+
+.mail {
+  width: 50%;
+  height: 300px;
+  font-size: 15px;
+  padding: 20px 10px;
+}
+.mail-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+/* メールアドレス */
+
+/* ボタン */
+.submit_form_input_submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+
+.button {
+    display       : inline-block;
+    border-radius : 5%;          
+    font-size     : 18pt;        
+    text-align    : center;      
+    cursor        : pointer;   
+    padding       : 12px 12px;   
+    background    : #000066;     
+    color         : #ffffff;    
+    line-height   : 1em;         
+    transition    : .3s;         
+    box-shadow    : 6px 6px 3px #666666;  
+    border        : 2px solid #000066;    
+  
+}
+
+.button:hover {
+   background-color: pink;
+   color: black;
+}
+/* ボタン */
+
+/* レスポンシブ */
+@media (max-width:670px) {
+    .responsive {
+        width: 100%;
+    }
+
+
+}
+
+/* レスポンシブ */

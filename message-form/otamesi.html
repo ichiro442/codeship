@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>otamesi</title>
+    <link rel="stylesheet" href="./message-form.css">
+</head>
+<body>
+<!-- formタグによるフォームメールCGI呼び出し -->
+<form action="https://go7.jp/p/r/w6b5fK4j" method="post">
+    <!-- 入力の項目の開始 -->
+    <p>名前（姓）：<input type="text" name="ニックネーム" size="25" required></p>
+    <p>メールアドレス：<input type="text" name="email" size="25"></p>
+    
+    <!-- フォームメールの送信先メールアドレス -->
+    <input type="hidden" name="tomail" value="ichiro.and.juliet.and@gmail.com" required>
+    
+    <!-- フォームメールの送信されるメールの件名 -->
+    <input type="hidden" name="tosubj" value="テスト送信">
+    
+    <!-- フォームメールの送信されるメールの出力形式 -->
+    <!-- 何も指定しない場合は、nameで指定した値＝入力値として出力される。 -->
+    <input type="hidden" name="todelim" value="TAB">
+    
+    <!-- フォームメールのボタン -->
+    <p><input type="submit" value="自由人に立候補する"></p>
+    <!-- formの終了タグ -->
+    </form>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,234 @@
+/* 共通 */
+.flex{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+h2{
+  text-align: center;
+}
+/* header */
+header{
+  width: 100%;
+  height: 50rem;
+color: white;
+}
+.header-inner{
+width: 100%;
+height: 100%;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_header_pink-4704d42ed44908fb061e80afc515a93ab2fcbfd605c2580de486a4d980b2115a.jpg);
+  background-size: cover;
+  
+}
+.header-top{
+width: 100%;
+height: 40rem;
+flex-direction: column;
+}
+.header-footer{
+  width: 100%;
+  height: 10rem;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.footer-img{
+  width: 20%;
+  padding: 10px;
+}
+
+/* main */
+/* section service */
+.service-contents{
+  width: 100%;
+  height: 40rem;
+}
+.service-content{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-size: cover;
+
+}
+.A{
+background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service01-01ee576583ddad054106d9f2dc78caf78be6c829383351a4fbc99ac5a566020a.jpg);
+}
+.B{
+background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service02-cd59d8cd17b05503a9fc3eeae42d618d0cc19b2277b581f5db275d5dde09e94d.jpg);
+}
+.C{
+background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service03-4c44f872ed6f7ed3007faeb109b1e03ceabcdb3106ba54392a5457a159a0f2ab.jpg);
+}
+.service-inner{
+  padding: 2rem;
+}
+/* section order */
+.order{
+  width: 100%;
+  height: 30rem;
+}
+.order-contents{
+width: 100%;
+}
+.order-content{
+width: 50%;
+text-align: center;
+}
+.order-left{
+  background-color: rgb(240, 238, 238);
+}
+.order-img{
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  display: block;
+  margin-bottom: 2rem;
+}
+.order-img-1{
+  width: 8rem;
+position: absolute;
+top: 0;
+left: 40%;
+z-index: 1;
+}
+.order-img-2{
+  width: 10rem;
+  position: absolute;
+  top: 1rem;
+  left: 38%;
+}
+.order-img-3{
+  width: 12rem;
+}
+/* section explain */
+.explain{
+  width: 100%;
+  height: 50rem;
+  background-color: rgb(232, 212, 216);
+
+}
+.expalin-img{
+  width: 45rem;
+}
+.expalin-contents{
+  width: 30.1%;
+  height: 32rem;
+  margin: 10rem;
+}
+
+.expalin-contents h2,h3{
+  text-align: center;
+}
+/* section vase */
+.vase{
+  width: 100%;
+  background-color: #e4e2e2;
+
+}
+.vase-contents{
+  width: 50%;
+}
+.vase-imgs{
+width: 100%;
+}
+.vase-img{
+  width: 100%;
+}
+.vase-right-img{
+  width: 50%;
+  margin-bottom: 0;
+}
+.vase-img-box{
+  width: 13%;
+  text-align: center;
+  margin: 2rem;
+box-shadow: 1rem solid grey;
+background-color: rgb(236, 234, 234);
+}
+.vase-img-box p{
+  margin: 0;
+}
+.vase-article{
+  width: 57%;
+  margin: 0 auto;
+}
+.vase-footer{
+width: 50%;
+margin-left: 9rem;
+}
+.vase-footer-left{
+  width: 6rem;
+  height: 4rem;
+  text-align: center;
+  border: 2px solid black;
+  margin-right: 1rem;
+}
+.vase-footer-left p{
+  margin: 6px;
+}
+.vase-footer-right{
+flex-direction: column;
+}
+.vase-footer-right p{
+  margin: 0;
+}
+/* life */
+.life{
+  width: 100%;
+  height: 30rem;
+}
+.life-contents{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.life-content{
+  width: 100%;
+  margin: 2rem;
+  text-align: center;
+}
+.life-img{
+  width: 30%;
+}
+/* section logo */
+.logo{
+  width: 100%;
+  height: 25rem;
+  background-color: #efdfc5;
+}
+.logo-left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.logo-img{
+  width: 70%;
+}
+.logo-right{
+  width: 20%;
+  height: 80%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-img-right{
+  width: 40%;
+}
+/* footer */
+footer{
+  width: 100%;
+  height: 20rem;
+  background-color: #3f434a;
+  display: flex;
+}
+footer p{
+  margin: 3rem;
+color: white;
+}
+.footer-img{
+  width: 5rem;
+  height: 5rem;
+ margin-left: 3rem;
+}

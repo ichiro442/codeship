@@ -1,0 +1,322 @@
+/* 共通 */
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* header */
+header {
+  width: 100%;
+  height: 60rem;
+  background-image: url(https://agreen.tokyo/wp/wp-content/themes/agreen/images/main-visual_pc.jpg);
+  background-size: cover;
+}
+.header-top {
+  width: 100%;
+  height: 5rem;
+}
+.header-top a {
+  width: 8rem;
+  height: 2rem;
+  float: right;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+header h3 {
+  color: green;
+  padding-bottom: 5rem;
+  padding-left: 3rem;
+}
+header h1 {
+  padding-left: 8rem;
+  padding-bottom: 3rem;
+}
+nav {
+  width: 100%;
+  height: 5rem;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav li {
+  margin-right: 5rem;
+}
+.header-footer-inner {
+  width: 20rem;
+  height: 5rem;
+  padding-top: 4rem;
+  margin-left: 11rem;
+  font-size: 0.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+/* main */
+/* section passion */
+.passion {
+  width: 100%;
+  height: 50rem;
+  position: relative;
+}
+.passion-contents {
+  width: 50%;
+  height: 20rem;
+  margin-left: 6rem;
+}
+.passion-content {
+  width: 50%;
+  height: 100%;
+  margin: 2rem;
+}
+
+.passion-bgc {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(245, 245, 226);
+  position: absolute;
+  top: 20rem;
+  z-index: -10;
+}
+.passion-imgs {
+  width: 50%;
+  height: 30rem;
+  float: right;
+  margin-right: 10rem;
+  position: absolute;
+  bottom: -15rem;
+  right: 0;
+}
+.passion-imgs-contents {
+  flex-wrap: wrap;
+}
+.passion-img {
+  width: 45%;
+  height: 100%;
+  margin: 0.5rem;
+}
+/* designer */
+.designer {
+  width: 100%;
+  height: 40rem;
+  margin-top: 50rem;
+  position: relative;
+}
+.designer-img {
+  width: 55%;
+  height: 25rem;
+}
+.designer-contents {
+  display: flex;
+}
+.introduction {
+  width: 28%;
+  height: 30rem;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.introduction-title {
+  font-size: 1.5rem;
+  color: green;
+}
+.introduction h2 {
+  text-align: left;
+  font-size: 1.5rem;
+  color: black;
+}
+.designer-bgc {
+  width: 65%;
+  height: 25rem;
+  background-color: rgb(240, 240, 234);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+/* service */
+.service {
+  width: 100%;
+  height: 40rem;
+  margin-top: 30rem;
+}
+.service h2 {
+  margin: 10rem;
+}
+.service-contents {
+  width: 80%;
+  height: 40rem;
+  margin: 0 auto;
+}
+.service-content {
+  width: 28%;
+  height: 100%;
+  margin: 3rem;
+  position: relative;
+  font-size: 0.8rem;
+}
+.service-img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+.service-img-2 {
+  width: 50%;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+.content-title {
+  text-align: center;
+}
+.service a {
+  float: right;
+  margin-right: 10rem;
+}
+/* works */
+.works-top-img {
+  width: 100%;
+}
+.works {
+  width: 100%;
+  height: 30rem;
+  margin-top: 20rem;
+}
+.works a {
+  float: right;
+  margin-right: 10rem;
+}
+.works h2 {
+  margin-left: 13rem;
+  text-align: left;
+}
+.works-contents {
+  width: 85%;
+  height: 100%;
+  float: right;
+  margin-top: 5rem;
+}
+.works-content {
+  width: 100%;
+  height: 100%;
+  margin: 0.1rem;
+  font-size: 0.8rem;
+}
+.works-img {
+  width: 100%;
+}
+.works-title {
+  line-height: 0.8rem;
+}
+/* news */
+.news {
+  width: 100%;
+  height: 20rem;
+  margin-top: 20rem;
+}
+.news-contents {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.news-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: dotted 1px gray;
+  margin: 2rem;
+}
+.news-content a {
+  padding-left: 3rem;
+}
+.news a {
+  float: right;
+  margin-right: 15rem;
+}
+/* follow */
+.follow {
+  width: 100%;
+  height: 20rem;
+  margin-top: 20rem;
+}
+.follow-img {
+  width: 55%;
+  display: block;
+  margin: 0 auto;
+}
+.follow a {
+  width: 30%;
+  text-align: center;
+  border-top: dotted 1px gray;
+  border-bottom: dotted 1px gray;
+  padding: 2rem;
+
+  margin-top: 10rem;
+}
+/* contact */
+.contact {
+  width: 100%;
+  height: 20rem;
+  margin-top: 25rem;
+  position: relative;
+  z-index: 1;
+}
+.contact-contents{}
+.contact-bgc {
+  width: 55%;
+  height: 18rem;
+  background-color: rgb(235, 235, 230);
+  position: absolute;
+  top: 1rem;
+left: 22%;
+z-index: -1;
+}
+.contact a {
+  width: 20%;
+  height: 5rem;
+  background-color: green;
+  text-align: center;
+  line-height: 5rem;
+  color: white;
+  margin: 5rem;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 20rem;
+    margin-top: 15rem;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+footer li{
+    margin-right: 5rem;
+}

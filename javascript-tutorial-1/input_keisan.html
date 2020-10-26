@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>サンプル</title>
+    <link rel="stylesheet" href="./input_keisan.css">
+    <script type="text/javascript">
+      function keisan() {
+        var price1 = document.getElementById("hoge").value * 2000;
+        document.form1.field1.value = price1;
+      }
+    </script>
+  </head>
+  <body>
+    <form action="#" name="form1">
+      <table>
+        <tr>
+          <td class="minutes">60分</td>
+          <td>
+            <input type="text" id="hoge" size="8" onChange="keisan()" />
+          </td>
+          <td><input type="text" name="field1" size="8" value="0" />円</td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

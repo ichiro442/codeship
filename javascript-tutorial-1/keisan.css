@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(41, 145, 243);
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+}
+.th{
+    background-color: tomato;
+}
+.sub-th{background-color: yellowgreen;
+}
+.price{
+    background-color: sandybrown;
+}
+.select{
+    background-color: aqua;
+}
+.input{
+    background-color: rgb(206, 168, 241);
+}

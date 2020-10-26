@@ -1,0 +1,12 @@
+body{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+}
+input{
+    background-color: rgb(106, 199, 253);
+}
+.minutes{
+background-color: rgb(106, 199, 253);
+}

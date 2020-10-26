@@ -1,0 +1,325 @@
+/* 共通 */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* header */
+nav {
+  width: 100%;
+  height: 80rem;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://www.shiseido.co.jp/ieg/assets/cms/top_mv-pc-1-1.jpg);
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  margin-right: 2rem;
+}
+nav p {
+  font-size: 2rem;
+  margin-top: 0;
+  padding-left: 2rem;
+  font-weight: bold;
+}
+/* main */
+/* .item-1 画像の重なり */
+.items-wrapper {
+  width: 100%;
+  height: 60rem;
+}
+.item-1 {
+  width: 60%;
+  height: 25rem;
+  position: relative;
+  margin-top: 5rem;
+}
+.conpacts {
+  width: 30rem;
+  position: absolute;
+  right: -30%;
+  bottom: 0;
+  z-index: 5;
+}
+.powder {
+  width: 10rem;
+  position: absolute;
+  top: -5rem;
+  left: 50%;
+  z-index: 4;
+}
+.sentense {
+  width: 15rem;
+  position: absolute;
+  top: 15%;
+  left: 70%;
+  z-index: 7;
+}
+.bgc {
+  width: 90%;
+  height: 20rem;
+  background-color: beige;
+  position: absolute;
+}
+.item-1-box {
+  width: 21rem;
+  height: 13rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 3rem;
+  left: 23rem;
+  z-index: 6;
+}
+.box-inner {
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+}
+/* item-2 画像の重なり */
+.item-2 {
+  margin-top: 10rem;
+  float: right;
+  width: 80%;
+  height: 25rem;
+  position: relative;
+}
+.lipstick {
+  width: 40rem;
+  position: absolute;
+  z-index: 5;
+}
+.drawing {
+  width: 15rem;
+  position: absolute;
+  bottom: 0;
+  right: 6rem;
+  z-index: 6;
+}
+.sentense-2 {
+  width: 15rem;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  z-index: 8;
+}
+.item-2-bgc {
+  position: absolute;
+  right: 0;
+  width: 80%;
+  bottom: -6rem;
+}
+.item-2-box {
+  width: 21rem;
+  height: 12rem;
+  background-color: #fff;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  z-index: 9;
+}
+/* recommend */
+.recommend-wrapper {
+  width: 80%;
+  margin: 10rem auto;
+}
+.recommend-contents {
+  width: 100%;
+  height: 20rem;
+}
+.recommend-content {
+  width: 28%;
+  height: 100%;
+  padding: 2rem;
+  font-size: 0.8rem;
+}
+.recommend-img {
+  width: 100%;
+}
+/* beauty */
+/* 画像の重なり */
+.beauty-wrapper {
+  width: 100%;
+  height: 40rem;
+}
+.beauty-title{
+  width: 80%;
+  margin: 0 auto;
+}
+.beauty-inner {
+  width: 60%;
+  float: right;
+  position: relative;
+}
+.beauty-img {
+  width: 22rem;
+  position: absolute;
+  top: 5rem;
+  left: 10rem;
+  z-index: 2;
+}
+.beauty-bgc {
+  width: 100%;
+  height: 30rem;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+.beauty-box {
+    width: 21rem;
+    height: 12rem;
+  background-color: #fff;
+  position: absolute;
+  top: 10rem;
+  left: -15rem;
+  z-index: 10;
+}
+/* 画像４枚横並び */
+.beauty-items{
+    width: 100%;
+    height: 40rem;
+    margin-top: 0.5rem;
+}
+.beauty-item{
+    width: 15%;
+    height: 25rem;
+    padding: 1rem;
+}
+.beauty-item-img{
+    width: 100%;
+
+}
+.beauty-footer{
+    text-align: center;
+}
+/* finding-wrapper  */
+.finding-wrapper{
+    width: 100%;
+    height: 80rem;
+    background-color: rgb(248, 248, 233);
+    margin: 0 auto;
+}
+.finfding-title{
+  width: 90%;
+  margin: 0 auto;
+}
+.basemakes{
+    width: 80%;
+    height: 20rem;
+    margin: 0 auto;
+}
+.basemake{
+    width: 11%;
+    height: 12rem;
+    padding: 2rem;
+}
+.basemake-img{
+    width: 100%;
+}
+.basemake-sub{
+   width: 80%;
+   margin: 0 auto;
+}
+/* point-make-wrapper  */
+.point-make-wrapper{
+  width: 80%;
+  height: 50rem;
+  margin: 0 auto;
+}
+.point-make-sub{
+  width: 80%;
+  margin: 0 auto;
+}
+.point-makes{
+  width: 80%;
+  height: 30rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.point-make{
+  width: 11%;
+  height: 12rem;
+  padding: 2rem;
+  font-size: 1rem;
+}
+.point-make-img{
+  width: 100%;
+}
+.point-make-footer{
+  display: block;
+  width: 50%;
+  margin: 7rem auto;
+}
+/* message */
+.messages{
+  width: 100%;
+  height: 30rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  margin: 8rem auto;
+}
+.message-img{
+width: 22rem;
+margin: 5rem;
+}
+.messages h2{
+  color: #324469;
+}
+/* border */
+.border{
+  width: 100%;
+  background-color: black;
+  height: 2px;
+}
+
+
+/* footer */
+footer{
+  width: 100%;
+height: 20rem;
+}
+.brand-name{
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+line-height: 0.4rem;
+color: #324469;
+}
+.brand-name p{
+  font-size: 0.6rem;
+  margin: 0;
+}
+.brand-name h2{
+  margin: 0;
+}
+.link-introduction{
+  width: 100%;
+  height: 5rem;
+}
+.link-introduction li{
+  padding: 1rem;
+}
+.shops{
+  width: 100%;
+}
+.shops-img-box{
+  width: 10rem;
+  height: 10rem;
+}
+.shops-img{
+  width: 80%;
+  padding: 1rem;
+  display: block;
+}
+
